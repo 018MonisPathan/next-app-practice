@@ -1,12 +1,13 @@
-import React from 'react'
-import AddToCart from './AddToCart'
+import React from "react";
+import AddToCart from "./AddToCart";
+
 
 const ProductCard = () => {
   return (
-    <div>
-      <AddToCart/>
+    <div className=' my-5  '>
+      <AddToCart />
     </div>
-  )
-}
+  );
+};
 
-export default ProductCard
+export default ProductCard;
